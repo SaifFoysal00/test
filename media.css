@@ -1,0 +1,78 @@
+/*Extra small devices (portrait phones, less than 576px)*/
+ @media (max-width: 575.98px) { 
+ 	/*header top area start*/
+ 	.icon ul li a i {
+    margin-right: 0px;
+    padding: 0px 0px;
+}
+
+ 	/*header top area end*/
+ 	/*menu area start*/
+ 	/*menu area start*/
+ 	.menu ul li a {
+    font-weight: 700;
+    padding: 5px 0px!important;
+}
+  /*banner area end*/
+  .banner_text_wrap {
+    width: 100%;
+}
+.banner_text_wrap h1 {
+    font-size: 35px;
+}
+.banner_text_wrap h2 {
+    font-size: 25px;
+}
+.banner_text_wrap p {
+    padding: 10px 0px;
+    line-height: 25px;
+}
+  /*banner area end*/
+ }
+ /*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+ /*banner area start*/
+   .banner_text_wrap {
+    width: 70%;
+}
+.banner_text_wrap p {
+    padding: 10px 0px;
+    line-height: 25px;
+}
+ /*banner area end*/
+
+}
+ /*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+ /*banner area start*/
+ .banner_text_wrap {
+    width: 56%;
+}
+ .banner_text_wrap p {
+    padding: 10px 0px;
+    line-height: 25px;
+}
+ /*banner area end*/
+ /*about us section start*/
+ .cus_con_wrap img{
+	margin-top:80px;
+}
+ .par_wrap .first_par {
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+ /*about us section end*/
+ }
+ /*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+
+   /*about us section start*/
+ .par_wrap .first_par {
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+ /*about us section end*/
+
+ }
+ /*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) { ... }
